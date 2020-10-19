@@ -10,4 +10,4 @@ for file_ in glob.glob("*.wav"):
     file_tmp = file_tmp.set_frame_rate(16000)
     file_tmp.export('C:/Users/Lyudmila/Desktop/emotion/test_16000/sad/' + "m_" + file_, format='wav')
     count += 1
-#sound.export('D:/tmp/digits_rus/ноль/010_ноль.wav', format='wav')
+print(count)
