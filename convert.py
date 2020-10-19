@@ -11,3 +11,12 @@ for file_ in glob.glob("*.wav"):
     file_tmp.export('C:/Users/Lyudmila/Desktop/emotion/test_16000/sad/' + "m_" + file_, format='wav')
     count += 1
 print(count)
+def power(a, n):
+    if n == 0:
+        return 1
+    else:
+        return a * power(a, n - 1)
+a = int(input())
+n = int(input())
+print (power(a, n))
+
